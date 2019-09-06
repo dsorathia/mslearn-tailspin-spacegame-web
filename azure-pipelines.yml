@@ -35,5 +35,4 @@ steps:
   inputs:
     command: 'build'
     arguments: '--no-restore --configuration Release'
-    projects: '**/*.csproj'pool:
-  vmImage: 'Ubuntu-16.04'
+    projects: '**/*.csproj'
